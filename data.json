@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Ernesto Guevara",
+    "coor": {"lat": -32.95, "long": -60.63},
+    "description" : "",
+    "image": {"$type":"image","url":"http://www.ohcamaguey.cu/wp-content/uploads/ernesto_che_guevara-768x576.jpg"},
+    "resources" : []
+  },
+  {
+    "name": "Walter Rodney",
+    "image": {"$type":"image","url":"http://roape.net/site/wp-content/uploads/2019/08/RodneyChin2-1.jpg"},
+    "coor": {"lat": 6.80, "long": -58.15},
+    "description" : "",
+    "resources" : [
+      {"$type":"image","url":"http://roape.net/site/wp-content/uploads/2019/08/RodneyChin2-1.jpg"},
+      {"$type":"text",
+        "text":"The imperialist whites use the above evidence to snigger at Africans for being ‘illiterate natives’, and they would argue that illiteracy is part of ‘the vicious circle of poverty’. Yet, the same people boast proudly that they have educated Africa. It is difficult to see how they can have it both ways. If independent Africa is still without the benefits of modern education (as it is) then 75 years of colonial exploitation undoubtedly have something to do with that state of affairs; and the absurdity is so much the greater when one contemplates how much Africa produced in that period and how much of that went to develop all aspects of European capitalist society, including their educational institutions. Cecil Rhodes could afford to leave a legacy of lavish scholarships to white students for study at Oxford University, having made a fortune\nfrom exploiting Africa and Africans.",
+        "source": {"title": "How Europe Underdeveloped Africa", "author": "Walter Rodney", "year" : [1972],
+        "link" : [{"$type":  "link", "url" : "http://abahlali.org/files/3295358-walter-rodney.pdf", "title" : "How Europe Underdeveloped Africa"}]}}
+    ]
+  },
+  {
+    "name": "Kwame Ture",
+    "description" : "Carmichael was born on June 29, 1941, in Port of Spain, Trinidad and Tobago. Carmichael's parents immigrated to New York when he was a toddler, leaving him in the care of his grandmother until the age of 11 when he followed his parents to the United States.",
+    "image": {"$type":"image","url":"http://www.aavw.org/images/speeches_carmichael.jpg"},
+    "coor": {"lat": 10.66 , "long": -61.51},
+    "resources": [
+      {"$type":"video","url":"https://player.vimeo.com/video/382896048",
+        "title": "abc"
+      },
+      {"$type":"video","url":"https://www.youtube-nocookie.com/embed/1OS8Z5B5Cbk","title": "abc"}
+    ]
+  },
+  {
+    "name": "Thomas Sankara",
+    "description" : "Thomas Isidore Noël Sankara (21 December 1949 – 15 October 1987) was a Burkinabé military captain, Marxist revolutionary, pan-Africanist theorist, and President of Burkina Faso from 1983 to 1987. Viewed by supporters as a charismatic and iconic figure of revolution, he is commonly referred to as “Africa’s Che Guevara”",
+    "image": {"$type":"image","url":"https://pbs.twimg.com/media/EeNuo-FU8AA_BsJ?format=jpg&name=medium"},
+    "coor": {"lat": 12.96 , "long": -2.26},
+    "resources": [
+      {"$type":  "video", "url": "https://www.youtube-nocookie.com/embed/LVKgvakY_Io", "title": "Thomas Sankara Speaks"},
+      {"$type":  "image", "url": "https://cdn09.allafrica.com/download/pic/main/main/csiid/00351682:28f5af6cc7bd6934d2768b542d27964b:arc614x376:w735:us1.jpg",
+        "phrase": [{"$type": "phrase", "text" :  "It is imperialism that assassinated the Lumumbas, the Cabrals, and the Kwame Nkrumahs"}]
+      }
+    ]
+  },
+  {
+    "name": "Hugo Chávez",
+    "description" : "",
+    "image": {"$type":"image","url":"https://www.telesurtv.net/__export/1435731370062/sites/telesur/img/news/2015/07/01/chavezmilitar.jpg_1718483347.jpg"},
+    "coor": {"lat": 8.75 , "long": -69.93},
+    "resources" : [
+      {"$type":  "video", "url": "https://www.youtube-nocookie.com/embed/1ohc4DVEVIs", "title" : ""}
+    ]
+  }
+]
