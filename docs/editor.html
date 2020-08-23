@@ -13,32 +13,33 @@
           integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
           crossorigin=""/>
 </head>
-
-<body>
-
-<nav class="navbar is-dark is-fixed-top" role="navigation" >
-    <div class="navbar-brand">
-        <a class="navbar-item" href="#">
-            Reva
-        </a>
-    </div>
-
-</nav>
-
-<section class="section">
-    <div class="container has-text-centered">
-        <div class="box">
-            <div id="mapid" style="z-index: 0; height: 450px; margin-top: 5px; position: relative; outline: none;"></div>
+    
+<body class="has-navbar-fixed-top">
+<div id="app-container">
+    <nav class="navbar is-dark is-fixed-top" role="navigation" >
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                Reva - Editor
+            </a>
         </div>
-    </div>
-    <div id="app-container" class="container"></div>
-</section>
+
+    </nav>
+
+    <section class="section">
+        <div class="container has-text-centered">
+            <div class="box">
+                <div id="mapid" style="z-index: 0; height: 450px; margin-top: 5px; position: relative; outline: none;"></div>
+            </div>
+        </div>
+    </section>
+</div>
 
 
 <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
         integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
         crossorigin=""></script>
 <script type="text/javascript" src="reva-opt.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-base64@3.4.5/base64.min.js"></script>
 <script>
   new TokenFetcher(Reva.Prod).load("app-container");
 </script>
