@@ -12,12 +12,26 @@
     width: 64px;
   }
 
-  .button-span {
-    // this is not enough because the span still consumes space.
-    display: none;
-  }
 }
 
 html {
    scroll-behavior: smooth;
- }
+}
+
+.button.is-white.button-ts-back {
+  background-color:transparent;
+}
+
+.button.is-small.is-white:hover {
+  background-color:#f9f9f9;
+}
+
+.button.is-small.is-white:active {
+  //background-color:#f2f2f2;
+  background-color:transparent;
+}
+
+
+
+
+
