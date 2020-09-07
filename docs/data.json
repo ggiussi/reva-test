@@ -1,1 +1,598 @@
-[{"name":"Ernesto Guevara","image":{"$type":"image","id":"018196b6-ad42-4ae7-ae27-9d6dd3bb0285","url":"http://www.ohcamaguey.cu/wp-content/uploads/ernesto_che_guevara-768x576.jpg"},"coor":{"lat":-32.95,"long":-60.63},"description":"","resources":[]},{"name":"Walter Rodney","image":{"$type":"image","id":"TODO","url":"http://roape.net/site/wp-content/uploads/2019/08/RodneyChin2-1.jpg"},"coor":{"lat":6.8,"long":-58.15},"description":"","resources":[{"$type":"image","id":"4615ea53-91d5-4d0e-b420-fc3fe1a2e927","url":"http://roape.net/site/wp-content/uploads/2019/08/RodneyChin2-1.jpg"}]},{"name":"Kwame Ture","image":{"$type":"image","id":"5833e59f-2cb7-405c-90c6-a1e6f175119a","url":"http://www.aavw.org/images/speeches_carmichael.jpg"},"coor":{"lat":10.66,"long":-61.51},"description":"Carmichael was born on June 29, 1941, in Port of Spain, Trinidad and Tobago. Carmichael's parents immigrated to New York when he was a toddler, leaving him in the care of his grandmother until the age of 11 when he followed his parents to the United States.","resources":[{"$type":"video","id":"0504574b-e6b6-4332-b264-5e8b74423ed8","url":"https://player.vimeo.com/video/382896048","title":"abc"},{"$type":"video","id":"b76ab912-7560-4d9c-8610-db8f23ca88ae","url":"https://www.youtube-nocookie.com/embed/1OS8Z5B5Cbk","title":"abc"}]},{"name":"Thomas Sankara","image":{"$type":"image","id":"97e851c2-039b-4dc0-937e-2a1d6e012366","url":"https://pbs.twimg.com/media/EeNuo-FU8AA_BsJ?format=jpg&name=medium"},"coor":{"lat":12.96,"long":-2.26},"description":"Thomas Isidore Noel Sankara (21 December 1949 - 15 October 1987) was a Burkinabe military captain, Marxist revolutionary, pan-Africanist theorist, and President of Burkina Faso from 1983 to 1987. Viewed by supporters as a charismatic and iconic figure of revolution, he is commonly referred to as Africa's Che Guevara","resources":[{"$type":"video","id":"77e99f4a-968d-4f99-9a73-ffcbdde613fb","url":"https://www.youtube-nocookie.com/embed/LVKgvakY_Io","title":"Thomas Sankara Speaks"},{"$type":"image","id":"ecbe9d4f-7b58-4b4e-ac38-e08374a975fb","url":"https://cdn09.allafrica.com/download/pic/main/main/csiid/00351682:28f5af6cc7bd6934d2768b542d27964b:arc614x376:w735:us1.jpg","phrase":[{"$type":"phrase","id":"404d798f-b675-4c4a-8e4d-1cad1a24b32a","text":"It is imperialism that assassinated the Lumumbas, the Cabrals, and the Kwame Nkrumahs"}]}]}]
+[
+  {
+    "name": "Ernesto Guevara",
+    "coor": {
+      "lat": -32.95,
+      "long": -60.63
+    },
+    "description": "",
+    "image": {
+      "$type": "image",
+      "url": "http://www.ohcamaguey.cu/wp-content/uploads/ernesto_che_guevara-768x576.jpg",
+      "id": "018196b6-ad42-4ae7-ae27-9d6dd3bb0285"
+    },
+    "resources": []
+  },
+  {
+    "name": "Walter Rodney",
+    "image": {
+      "$type": "image",
+      "url": "http://roape.net/site/wp-content/uploads/2019/08/RodneyChin2-1.jpg",
+      "id": "TODO"
+    },
+    "coor": {
+      "lat": 6.80,
+      "long": -58.15
+    },
+    "description": "",
+    "resources": [
+      {
+        "$type": "image",
+        "url": "http://roape.net/site/wp-content/uploads/2019/08/RodneyChin2-1.jpg",
+        "id": "4615ea53-91d5-4d0e-b420-fc3fe1a2e927"
+      },
+      {
+        "$type": "text",
+        "id": "3533762f-df0d-4317-8256-b8bc60bb5e8a",
+        "text": "The imperialist whites use the above evidence to snigger at Africans for being 'illiterate natives', and they would argue that illiteracy is part of 'the vicious circle of poverty'. Yet, the same people boast proudly that they have educated Africa. It is difficult to see how they can have it both ways. If independent Africa is still without the benefits of modern education (as it is) then 75 years of colonial exploitation undoubtedly have something to do with that state of affairs; and the absurdity is so much the greater when one contemplates how much Africa produced in that period and how much of that went to develop all aspects of European capitalist society, including their educational institutions. Cecil Rhodes could afford to leave a legacy of lavish scholarships to white students for study at Oxford University, having made a fortune\nfrom exploiting Africa and Africans.",
+        "source": {
+          "title": "How Europe Underdeveloped Africa",
+          "author": "Walter Rodney",
+          "year": 1972,
+          "link": {
+            "$type": "link",
+            "id": "4ca45a70-a4c9-46fc-b862-2071af842cae",
+            "url": "http://abahlali.org/files/3295358-walter-rodney.pdf",
+            "title": "How Europe Underdeveloped Africa"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Kwame Ture",
+    "description": "Carmichael was born on June 29, 1941, in Port of Spain, Trinidad and Tobago. Carmichael's parents immigrated to New York when he was a toddler, leaving him in the care of his grandmother until the age of 11 when he followed his parents to the United States.",
+    "image": {
+      "$type": "image",
+      "url": "http://www.aavw.org/images/speeches_carmichael.jpg",
+      "id": "5833e59f-2cb7-405c-90c6-a1e6f175119a"
+    },
+    "coor": {
+      "lat": 10.66,
+      "long": -61.51
+    },
+    "resources": []
+  },
+  {
+    "name": "Thomas Sankara",
+    "description": "Thomas Isidore Noel Sankara (21 December 1949 - 15 October 1987) was a Burkinabe military captain, Marxist revolutionary, pan-Africanist theorist, and President of Burkina Faso from 1983 to 1987. Viewed by supporters as a charismatic and iconic figure of revolution, he is commonly referred to as Africa's Che Guevara",
+    "image": {
+      "$type": "image",
+      "url": "https://pbs.twimg.com/media/EeNuo-FU8AA_BsJ?format=jpg&name=medium",
+      "id": "97e851c2-039b-4dc0-937e-2a1d6e012366"
+    },
+    "coor": {
+      "lat": 12.96,
+      "long": -2.26
+    },
+    "resources": [
+      {
+        "$type": "image",
+        "url": "https://cdn09.allafrica.com/download/pic/main/main/csiid/00351682:28f5af6cc7bd6934d2768b542d27964b:arc614x376:w735:us1.jpg",
+        "id": "ecbe9d4f-7b58-4b4e-ac38-e08374a975fb",
+        "phrase": {
+          "$type": "phrase",
+          "id": "404d798f-b675-4c4a-8e4d-1cad1a24b32a",
+          "text": "It is imperialism that assassinated the Lumumbas, the Cabrals, and the Kwame Nkrumahs"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Crazy Horse",
+    "image": {
+      "id": "d8ba9513-8c0c-4b32-b7bf-afa064634231",
+      "url": ""
+    },
+    "coor": {
+      "lat": 44.076189,
+      "long": -103.228297
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Sitting Bull",
+    "image": {
+      "id": "70d6eccc-89c5-4b20-8875-61df1df74296",
+      "url": ""
+    },
+    "coor": {
+      "lat": 44.5,
+      "long": -100.0
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Hugo Chavez",
+    "image": {
+      "id": "823e5d76-1282-46af-a060-2d8745bbe38f",
+      "url": ""
+    },
+    "coor": {
+      "lat": 8.752222,
+      "long": -69.9325
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Ho Chi Minh",
+    "image": {
+      "id": "f4569d4f-3612-4452-b8e4-fd8921e4d2b3",
+      "url": ""
+    },
+    "coor": {
+      "lat": 18.883333,
+      "long": 105.316667
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Bobby Sands",
+    "image": {
+      "id": "f216210e-f7b6-46a0-bda6-c07cbb21442a",
+      "url": ""
+    },
+    "coor": {
+      "lat": 54.657,
+      "long": -5.907
+    },
+    "description": "",
+    "resources" : []
+  },
+  {
+    "name": "Juana Azurduy",
+    "image": {
+      "id": "f27022f7-c6f6-4d4c-bf45-47647028d404",
+      "url": ""
+    },
+    "coor": {
+      "lat": -20.0,
+      "long": -64.416667
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Assata Shakur",
+    "image": {
+      "id": "1ffb42ea-dc15-484e-a028-f5fd60d8590c",
+      "url": ""
+    },
+    "coor": {
+      "lat": 40.7,
+      "long": -73.8
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Fidel Castro",
+    "image": {
+      "id": "4d01bdbc-772f-4ce5-8485-7e4b1d896432",
+      "url": ""
+    },
+    "coor": {
+      "lat": 20.55,
+      "long": -75.9
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Huey Newton",
+    "image": {
+      "id": "e59f46a3-0b9c-40db-9ab8-25d21a294344",
+      "url": ""
+    },
+    "coor": {
+      "lat": 32.5094,
+      "long": -92.1183
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Emiliano Zapata",
+    "image": {
+      "id": "38543cb7-c6e6-465c-9231-f8289a14c191",
+      "url": ""
+    },
+    "coor": {
+      "lat": 18.778056,
+      "long": -98.986111
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Bartolina Sisa Vargas",
+    "image": {
+      "id": "2d1ca4b5-9bac-4d12-a050-ecf9311bcbeb",
+      "url": ""
+    },
+    "coor": {
+      "lat": -16.9833,
+      "long": -67.8
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Tupac Katari",
+    "image": {
+      "id": "fa243362-15ab-4f65-9594-11d8da1847a1",
+      "url": ""
+    },
+    "coor": {
+      "lat": -17.1,
+      "long": -68.0
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Tupac Amaru",
+    "image": {
+      "id": "82d925c6-4ffc-4ba4-8e10-75e58e89c1bd",
+      "url": ""
+    },
+    "coor": {
+      "lat": -14.771667,
+      "long": -72.449444
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Manuel Belgrano",
+    "image": {
+      "id": "49c3ead0-9252-413b-8be7-df11f9c05c61",
+      "url": ""
+    },
+    "coor": {
+      "lat": -34.6083,
+      "long": -58.3712
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Fred Hampton",
+    "image": {
+      "id": "cc916f73-c613-4e9d-aff2-3348b9faf930",
+      "url": ""
+    },
+    "coor": {
+      "lat": 41.7833,
+      "long": -87.8167
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Malcolm X",
+    "image": {
+      "id": "976580f8-6fc3-4f6b-9730-dad46dff0779",
+      "url": ""
+    },
+    "coor": {
+      "lat": 41.266667,
+      "long": -96.016667
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Augusto Sandino",
+    "image": {
+      "id": "f2ade916-931a-4c7b-a4c6-9782b4b2b8ca",
+      "url": ""
+    },
+    "coor": {
+      "lat": 11.9,
+      "long": -86.1
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Berta Caceres",
+    "image": {
+      "id": "34dab3fe-1940-45e3-94dc-b44e004e423e",
+      "url": ""
+    },
+    "coor": {
+      "lat": 14.3,
+      "long": -88.18333
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Salvador Allende",
+    "image": {
+      "id": "f27257f4-f242-407e-98a8-8261e3884715",
+      "url": ""
+    },
+    "coor": {
+      "lat": -33.45,
+      "long": -70.666667
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Maurice Bishop",
+    "image": {
+      "id": "a866f211-9f09-485e-8a2c-1b8c08786498",
+      "url": ""
+    },
+    "coor": {
+      "lat": 12.044444,
+      "long": -61.741667
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Patrice Lumumba",
+    "image": {
+      "id": "6c52c816-f23b-4ef0-a4e8-519cf58ac996",
+      "url": ""
+    },
+    "coor": {
+      "lat": -3.4,
+      "long": 24.416667
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Kwame Nkrumah",
+    "image": {
+      "id": "3d370e2b-556f-4ccc-82ae-765687f98dc9",
+      "url": ""
+    },
+    "coor": {
+      "lat": 4.964167,
+      "long": -2.321944
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Muingi",
+    "image": {
+      "id": "6cd942bc-d2f8-493c-8576-82ed64495601",
+      "url": ""
+    },
+    "coor": {
+      "lat": -1.286389,
+      "long": 36.817223
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Ejército Zapatista de Liberación Nacional",
+    "image": {
+      "id": "e8e4d431-9b2a-4997-9dc2-db2ef9dee192",
+      "url": ""
+    },
+    "coor": {
+      "lat": 17.55653,
+      "long": -93.38104
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Jean-Jacques Dessalines",
+    "image": {
+      "id": "ea090a06-d823-4bd7-89be-d8f6f0b2f4a7",
+      "url": ""
+    },
+    "coor": {
+      "lat": 18.54,
+      "long": -72.3399
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Toussaint Louverture",
+    "image": {
+      "id": "aaae83d8-84c6-4946-bbc2-2fb1f3097b48",
+      "url": ""
+    },
+    "coor": {
+      "lat": 19.75,
+      "long": -72.2
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "José de San Martin",
+    "image": {
+      "id": "a17f0053-c725-460e-80a3-37034063a68e",
+      "url": ""
+    },
+    "coor": {
+      "lat": -29.469611,
+      "long": -56.817444
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "José Font",
+    "image": {
+      "id": "8c4beb23-96f7-4488-8860-a57d864a0f95",
+      "url": ""
+    },
+    "coor": {
+      "lat": -32.483333,
+      "long": -58.233333
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Evo Morales",
+    "image": {
+      "id": "7410c8a9-f559-4dd0-bd58-ffe8f341f2f6",
+      "url": ""
+    },
+    "coor": {
+      "lat": -16.833333,
+      "long": -66.166667
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Nat Turner",
+    "image": {
+      "id": "a4efae52-a771-4008-89b6-5288f2183d07",
+      "url": ""
+    },
+    "coor": {
+      "lat": 36.770833,
+      "long": -77.160556
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Simon Bolivar",
+    "image": {
+      "id": "33af1246-8552-4782-b177-f93461976c90",
+      "url": ""
+    },
+    "coor": {
+      "lat": 10.495278,
+      "long": -66.916944
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Ghassan Kanafani",
+    "image": {
+      "id": "95161a3a-3983-4365-8ad8-9f6e8184391b",
+      "url": ""
+    },
+    "coor": {
+      "lat": 32.926111,
+      "long": 35.083889
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Victor Jara",
+    "image": {
+      "id": "293c8518-2eea-417f-8a47-e3db11618e7f",
+      "url": ""
+    },
+    "coor": {
+      "lat": -36.8,
+      "long": -72.033333
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Rodolfo Walsh",
+    "image": {
+      "id": "30e78a1b-cc75-4d20-9b0a-e0241c246e48",
+      "url": ""
+    },
+    "coor": {
+      "lat": -39.423611,
+      "long": -65.7
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Abuelas de Plaza de Mayo",
+    "image": {
+      "id": "246d8c06-bd9d-45c9-9f42-0a6e1380f2bf",
+      "url": ""
+    },
+    "coor": {
+      "lat": -34.608333,
+      "long": -58.371944
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Valentina Ramírez Avitia",
+    "image": {
+      "id": "4acd958c-5829-40da-9eca-47aa3efc90f6",
+      "url": ""
+    },
+    "coor": {
+      "lat": 24.97,
+      "long": -106.965556
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Leila Khaled",
+    "image": {
+      "id": "f5e4ac5c-c0c0-438f-809d-41e8f57f30fc",
+      "url": ""
+    },
+    "coor": {
+      "lat": 32.8,
+      "long": 34.983333
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Pancho Villa",
+    "image": {
+      "id": "57801696-4767-4f8f-b648-29bbe6a8b689",
+      "url": ""
+    },
+    "coor": {
+      "lat": 24.743611,
+      "long": -104.456111
+    },
+    "description": "",
+    "resources": []
+  },
+  {
+    "name": "Lucio Cabañas",
+    "image": {
+      "id": "25c8b8b3-111d-4bff-b2c8-785eb0e5a20e",
+      "url": ""
+    },
+    "coor": {
+      "lat": 17.206667,
+      "long": -100.433056
+    },
+    "description": "",
+    "resources": []
+  }
+]
